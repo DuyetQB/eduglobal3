@@ -133,6 +133,12 @@ height: 22%;width:100%;bottom:110px;text-align: center;
 width:100%;height:20%;bottom:150px;text-align: center;
 justify-content: center;padding-left: 10px;
 }
+.footer .footer_content4 section{
+  width:100%;
+}
+.footer .footer_content4 section #send-to{
+  width:93%;
+}
 .footer .footer_content4 section .subscribe{
 right:30px;
 }
@@ -223,8 +229,11 @@ padding-left: 100px ;
     .footer .footer_content1{
      height:90%;width:25%;
     }
+    .footer .footer_content4 section{
+width:100%;
+    }
     .footer .footer_content4 section .subscribe{
-      right:0px;top:160px;width:70px;
+      right:10px;top:160px;width:70px;
     }
     .footer .footer_content4 section #send-to{
       width:100%;
