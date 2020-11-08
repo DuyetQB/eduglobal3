@@ -1,0 +1,240 @@
+@media only screen and (max-width: 739px){
+    .wrapper{
+      height:7700px;
+    }
+    .wrapper .header{
+      height:60px;
+    }
+
+   .wrapper .menu .small-icon-responsive{
+      display: block;
+    }
+    .wrapper .menu{
+      height:70px;
+    }
+    .wrapper .content{
+      height:81%;
+    }
+    .wrapper .content .main-slider{
+      height:300px;
+    }
+    .wrapper .content .item1{
+      height:1300px;
+    }
+    .wrapper .content .item1 .small_text{
+      left:20px;
+      width:90%;
+      height:10%;
+    }
+    .header .header-left{
+     display: none;
+    }
+    .header .header-right{
+      width:100%;
+      padding-left: 0px ;
+    }
+    .header .header-right .right{
+      width:50%;
+      padding-left: 0px ;
+    }
+    .header .right i{
+      padding:1px;
+    }
+    .wrapper .menu .menu-left{
+      width:60%;
+    }
+    .wrapper .menu .menu-left .logo{
+      width:100%;left:0;top:0;
+    }
+    .wrapper .menu .menu-right{
+      display: none;
+    }
+    .wrapper .content .item1 .wrap-icon{
+      display: flex; flex-direction: column;
+
+    }
+    .wrapper .content .item1 .wrap-icon .icon-choose{
+      top:10px;
+      left:0px;
+      margin: 10px ;
+    }
+    .wrapper .content .item2{
+      height:500px;
+    }
+    .wrapper .content .item2 .small-text2{
+      left:8px;width:90%;height:160px;
+    }
+    .wrapper .content .item2 .slider-sample{
+      width:100%;
+    }
+    .wrapper .content .item3{
+      height:1200px;
+      display: flex; flex-direction: column !important ;
+    }
+    .wrapper .content .item3 .about-us-father{
+      height:50%;
+      width:100%;
+
+}
+.wrapper .content .item3 .about-us-father .about-us{
+padding-left: 1px ;
+padding-top: 2px;
+border-radius: 0 0 0 0 ;
+-webkit-border-radius: 0 0 0 0 ;
+-moz-border-radius: 0 0 0 0 ;
+-ms-border-radius: 0 0 0 0 ;
+-o-border-radius: 0 0 0 0 ;
+padding: 30px ;
+}
+.wrapper .content .item3 .wrap-image{
+width:100%;
+height:50%;
+}
+.wrapper .content .item3 .wrap-image .animation-image{
+height:90%;
+}
+.wrapper .content .item3 .wrap-image .icon-play-animation{
+left:150px;
+}
+
+.wrapper .content .item4{
+height:2700px;left: 0px ;
+}
+.wrapper .content .item4 .courses{
+height:100%;
+}
+.wrapper .content .item4 .courses .courses-item{
+display: flex; flex-direction: column;
+padding: 0px ;
+}
+.wrapper .content .item4 .Our_courses{
+width: 100% ; left:0px;padding: 10px ;top:0px;
+height:200px;
+}
+.wrapper .content .item3 .about-us .Number{
+top:30px;
+}
+.wrapper .content .item4 .courses .courses-item .view_all-courses{
+left:100px;display: none;
+}
+.footer{
+display: flex; flex-direction: column;
+height:19%;
+}
+.footer .footer_content1{
+width:100%;padding-top: 1px;
+height:15%;bottom:100px;text-align: center;
+}
+.footer .footer_content2{
+height: 22%;width:100%;bottom:110px;text-align: center;
+}
+.footer .footer_content3,
+.footer .footer_content4{
+width:100%;height:20%;bottom:150px;text-align: center;
+justify-content: center;padding-left: 10px;
+}
+.footer .footer_content4 section .subscribe{
+right:30px;
+}
+.footer .footer_content4 .icon_end{
+padding-left: 90px;
+}
+.footer .footer_content1 .small_text-footer .small_icon-footer1,
+.footer .footer_content1 .small_text-footer .small_icon-footer2,
+.footer .footer_content1 .small_text-footer .small_icon-footer3
+{
+padding-left: 100px ;
+}
+
+  }
+
+
+
+@media only screen and (min-width: 740px)and (max-width: 1023px){
+    .wrapper{
+      height:5000px;
+    }
+    .header .header-left{
+      width:35%;
+    }
+    .header .header-right{
+      width:65%;
+    }
+    .header .header-left .text{
+      left:10px;
+    }
+    .header .header-right .right{
+      width:60%;padding-left: 10px ;
+    }
+    .wrapper .menu .menu-left{
+      width:30%;
+    }
+    .wrapper .menu .menu-left .logo{
+      left:0px;
+    }
+    .wrapper .menu .menu-right{
+      width:70%;
+    }
+   
+    .wrapper .menu .menu-right .main-ul .main-li a{
+      font-size: 17px;
+    }
+    .wrapper .content .main-slider{
+      height:400px;
+    }
+    .wrapper .content .item1 .small_text{
+      left:200px;
+    }
+    .wrapper .content .item1 .small_text p{
+      font-size: 20px;
+    }
+    .wrapper .content .item1 .wrap-icon .icon-choose{
+      left:0px;height:350px;margin: 10px;
+    }
+    .wrapper .content .item1{
+      left:0px;
+    }
+    .wrapper .content .item3 .wrap-image{
+      height:80%;
+    }
+    .wrapper .content .item3 .wrap-image .icon-play-animation{
+      left:130px;
+    }
+    .wrapper .content .item3 .about-us .Number{
+      top:36px;
+    }
+    .wrapper .content .item4 .Our_courses{
+      left:180px;
+    }
+    .wrapper .content .item4 .courses{
+      height:1434px ;top:100px;
+    }
+    .wrapper .content .item4 .courses .courses-item{
+      padding:10px;height:100%;
+     display: grid; grid-template-columns: auto auto ;
+      grid-row-gap: 20px;
+    }
+    .wrapper .content .item4 .courses .courses-item .course{
+      left:0px;height:427px;
+    }
+    .wrapper .content{
+      height:80%;
+    }
+    .footer .footer_content1{
+     height:90%;width:25%;
+    }
+    .footer .footer_content4 section .subscribe{
+      right:0px;top:160px;width:70px;
+    }
+    .footer .footer_content4 section #send-to{
+      width:100%;
+    }
+  }
+  @media only screen
+and (min-width: 1024px) 
+
+{
+  .wrapper{
+    width:1400px;
+  }
+}
