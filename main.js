@@ -150,4 +150,20 @@ variableWidth: true,
 });
 
       
-
+document.addEventListener("DOMContentLoaded" ,function(){
+    let icon = document.querySelector(".far.fa-hand-rock");
+    let nav = document.querySelector(".small-nav");
+    current ="click1"
+    icon.onclick = function(){
+        if( current == "click1"){
+            this.style.color ="orange";
+            nav.style.display ="block";
+            current ="click2";
+        }
+        else if(current == "click2"){
+            this.style.color ="black";
+            nav.style.display ="none";
+            current ="click1";
+        }
+    }
+},false )

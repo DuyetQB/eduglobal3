@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+   
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
@@ -11,16 +12,20 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>responsive</title>
+    <title>Eduglobal </title>
    <link rel="stylesheet"  href="./main.css">
 </head>
 <body>
     <div class="wrapper">
-        <div class="header">
+        <header class="header">
+          <div class="header-left">
             <div class="text"><i class="fas fa-mobile-alt"></i>
                 <span>123-456-789</span><i class="fa fa-envelope-o" aria-hidden="true"></i>
          <span id="gmail">info@yourmail.com</span>   </div>
+         </div>
+         <div class="header-right">
          <div class="right">
             <i class="fa fa-facebook" aria-hidden="true"></i>
             <i class="fa fa-twitter" aria-hidden="true"></i>
@@ -31,31 +36,50 @@
 
          </div>
          <div class="right-login">
-             <h4>Login</h4>
+             <a href="#">Login</a>
              <div class="apply"><h4>Apply Now</h4></div>
          </div>
         </div>
+     
+        </header>
         <div class="menu">
-            <img src="./logo1.png">
-          <ul>
-              <li><a  id="active" href="">Home</a>
+          <div class="menu-left">
+            <img class ="logo" src="./logo1.png">
+            </div>
+            <div class="menu-right">
+          <ul class="main-ul">
+
+              <li class="main-li active-li"><a  id="active" href="">Home</a>
               <ul id="sub1">
-                <li class="sub1-li1"><a href="#">Home version1</a></li>
-                <li class="sub1-li2"><a href="#">Home version2</a></li>
-                <li class="sub1-li3"><a href="#">Home version3</a></li>
-                <li class="sub1-li4"><a href="#">Home version4</a></li>
-                <li class="sub1-li5"><a href="#">Home version5</a></li>
-                <li class="sub1-li6"><a href="#">Home version6</a></li>
+                <li class="sub1-li"><a href="#">Home version1</a></li>
+                <li class="sub1-li"><a href="#">Home version2</a></li>
+                <li class="sub1-li"><a href="#">Home version3</a></li>
+                <li class="sub1-li"><a href="#">Home version4</a></li>
+                <li class="sub1-li"><a href="#">Home version5</a></li>
+                <li class="sub1-li"><a href="#">Home version6</a></li>
               </ul>
               </li>
-              <li><a href="">Pages</a></li>
-              <li><a href="">Course</a></li>
-              <li><a href="">Event</a></li>
-              <li><a href="">Teacher</a></li>
-              <li><a href="">Blog</a></li>
-              <li><a href="">Contact</a></li>
+              <li class="main-li"><a href="">Pages</a></li>
+              <li class="main-li"><a href="">Course</a></li>
+              <li class="main-li"><a href="">Event</a></li>
+              <li class="main-li"><a href="">Teacher</a></li>
+              <li class="main-li"><a href="">Blog</a></li>
+              <li class="main-li"><a href="">Contact</a></li>
          <span id="search" class="fas fa-search"></span>
             </ul>
+        </div>
+        <div class="small-icon-responsive">
+          <i class="far fa-hand-rock" ></i>
+        </div>
+        <nav class="small-nav">
+          <li class="small-li"><a href="#">Home</a></li>
+          <li class="small-li"><a href="#">Page </a></li>
+          <li class="small-li"><a href="#"> Courses</a></li>
+          <li class="small-li"><a href="#">Event</a></li>
+          <li class="small-li"><a href="#">Teacher</a></li>
+          <li class="small-li"><a href="#">Blog </a></li>
+          <li class="small-li"><a href="#">Contact</a></li>
+        </nav>
         </div>
         <div class="content">
             
@@ -129,17 +153,17 @@
                 <div class="small_text"><h3>Why choose Eduglobal</h3>
                 <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text</p></div>
                 <div class="wrap-icon">
-                    <div class="icon1">
+                    <div class="icon-choose">
                          <img src="book1.png">
                         <h3>Books & Library</h3><br>
                         <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text</p>
                     </div>
-                    <div class="icon2">
+                    <div class="icon-choose">
                        <img src="globle1.png">
                         <h3>Learn Courses Online</h3><br>
                         <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text</p>
                     </div>
-                    <div class="icon3">
+                    <div class="icon-choose">
                        <img src="exp1.png">
                         <h3>
                             Expert Instructors
@@ -149,9 +173,9 @@
                 </div>
             </div>
             <div class="item2">
-               <div class="small_text2">
-                    <h2 id="h2">Most Popular Categories</h2><br>
-                    <h6 id="h6">If you are going to use a passage of Lorem Ipsum,
+               <div class="small-text2">
+                    <h2 clas="h2">Most Popular Categories</h2>
+                    <h6 class="h6">If you are going to use a passage of Lorem Ipsum,
                         you need to be sure there <br>isn't anything embarrassing hidden in the middle of text</h6>
                         </div>
                        
@@ -170,6 +194,7 @@
             </div>
         
             <div class="item3">
+              <div class="about-us-father">
                 <div class="about-us">
                     <div class="about-us_text">
                         <h2>
@@ -190,9 +215,13 @@
                         </div>
                     </div>
                 </div>
-                <img id="hinh-anh" src="https://phununet.info/wp-content/uploads/2020/05/1590917249_van-phong-traveloka-2-11.jpg">
-                <a href="https://www.youtube.com/watch?v=H4-Ff9KNsLY"><div class="icon_play"><i class="fas fa-play"></i></div></a>
             </div>
+                <div class="wrap-image">
+                <img class="animation-image" src="https://1.bp.blogspot.com/-8ExOdD7pL2s/X6ZBB6EWUBI/AAAAAAAAJGE/t2MemBIlMtgAObSm0Am2yPIEcLtJvEtcQCNcBGAsYHQ/s1300/day-tieng-han-cho-dan-van-phong-uy-tin.jpg">
+                <a href="https://www.youtube.com/watch?v=H4-Ff9KNsLY"><div class="icon-play-animation"><i class="fas fa-play"></i></div></a>
+           </div>
+          
+              </div>
        
         <div class="item4">
           <div class=" Our_courses">
@@ -205,9 +234,9 @@
         </div>
         <div class="courses">
           <div class="courses-item">
-          <div class="course1">
+          <div class="course">
             <img class="main_pic-course" src="./course1.png">
-            <div class="text-down1">
+            <div class="text-down">
               <h4>Nullam id varius nunc id varius nunc</h4>
               <p>
                 If you are going to use a passage of Lorem Ipsum you need to be sure anything embarrassing hidden in the middle of text</p>
@@ -222,14 +251,14 @@
           
            </div>
               </div>
-            <div class="small_profile1"> <img src="https://i.pinimg.com/474x/40/bb/96/40bb96028c5d9c80ec0058d4d2ee2bf2.jpg">
+            <div class="small_profile"> <img src="https://i.pinimg.com/474x/40/bb/96/40bb96028c5d9c80ec0058d4d2ee2bf2.jpg">
               <h4>dinh si duyet</h4>
-              <div class="price1"><p>$300</p></div>
+              <div class="price"><p>$300</p></div>
             </div>
           </div>
-          <div class="course2">
+          <div class="course">
             <img class="main_pic-course" src="./course2.png">
-            <div class="text-down2">
+            <div class="text-down">
               <h4>Nullam id varius nunc id varius nunc</h4>
               <p>
                 If you are going to use a passage of Lorem Ipsum you need to be sure anything embarrassing hidden in the middle of text</p>
@@ -244,14 +273,14 @@
            
            </div>
               </div>
-            <div class="small_profile2"><img src="https://congngheads.com/media/images/anh-dep/hinh-nen-android-dep-1559622870/anh-gai-xinh-mac-kimono-hong-duyen-dang-04-08-2019-2.jpg">
+            <div class="small_profile"><img src="https://congngheads.com/media/images/anh-dep/hinh-nen-android-dep-1559622870/anh-gai-xinh-mac-kimono-hong-duyen-dang-04-08-2019-2.jpg">
               <h4>dinh si duyet</h4>
-              <div class="price2"><p>$300</p></div>
+              <div class="price"><p>$300</p></div>
             </div>
           </div>
-          <div class="course3">
+          <div class="course">
             <img class="main_pic-course" src="./course3.png">
-            <div class="text-down3">
+            <div class="text-down">
               <h4>Nullam id varius nunc id varius nunc</h4>
               <p>
                 If you are going to use a passage of Lorem Ipsum you need to be sure anything embarrassing hidden in the middle of text</p>
@@ -266,14 +295,14 @@
           
            </div>
               </div>
-            <div class="small_profile3"><img src="https://img2.thuthuatphanmem.vn/uploads/2019/01/04/anh-dep-gai-xinh_025059121.png">
+            <div class="small_profile"><img src="https://img2.thuthuatphanmem.vn/uploads/2019/01/04/anh-dep-gai-xinh_025059121.png">
               <h4>dinh si duyet</h4>
-              <div class="price3"><p>$300</p></div>
+              <div class="price"><p>$300</p></div>
             </div>
           </div>
-          <div class="course4">
+          <div class="course">
             <img class="main_pic-course" src="./course4.png">
-            <div class="text-down4">
+            <div class="text-down">
               <h4>Nullam id varius nunc id varius nunc</h4>
               <p>
                 If you are going to use a passage of Lorem Ipsum you need to be sure anything embarrassing hidden in the middle of text</p>
@@ -288,14 +317,14 @@
            
            </div>
               </div>
-            <div class="small_profile4"><img src="https://img2.thuthuatphanmem.vn/uploads/2019/01/04/anh-dep-gai-xinh_025059121.png">
+            <div class="small_profile"><img src="https://img2.thuthuatphanmem.vn/uploads/2019/01/04/anh-dep-gai-xinh_025059121.png">
               <h4>dinh si duyet</h4>
-              <div class="price4"><p>$300</p></div>
+              <div class="price"><p>$300</p></div>
               </div>
           </div>
-          <div class="course5">
+          <div class="course">
             <img class="main_pic-course" src="./course5.png">
-            <div class="text-down5">
+            <div class="text-down">
               <h4>Nullam id varius nunc id varius nunc</h4>
               <p>
                 If you are going to use a passage of Lorem Ipsum you need to be sure anything embarrassing hidden in the middle of text</p>
@@ -310,14 +339,14 @@
            
            </div>
               </div>
-            <div class="small_profile5"><img src="https://nguyendangtam.com/wp-content/uploads/2019/08/anh-gai-xinh-ky-le-hieu-1.jpg">
+            <div class="small_profile"><img src="https://nguyendangtam.com/wp-content/uploads/2019/08/anh-gai-xinh-ky-le-hieu-1.jpg">
               <h4>dinh si duyet</h4>
-              <div class="price5"><p>$300</p></div>
+              <div class="price"><p>$300</p></div>
             </div>
           </div>
-          <div class="course6">
+          <div class="course">
             <img class="main_pic-course" src="./course6.png">
-            <div class="text-down6">
+            <div class="text-down">
               <h4>Nullam id varius nunc id varius nunc</h4>
               <p>
                 If you are going to use a passage of Lorem Ipsum you need to be sure anything embarrassing hidden in the middle of text</p>
@@ -331,12 +360,12 @@
               <i class="fas fa-heart"></i><span>30</span></div>
           </div>
               </div>
-            <div class="small_profile6"><img src="https://i.pinimg.com/474x/22/73/70/227370be14a0c0b432aaae68233a9bb8.jpg">
+            <div class="small_profile"><img src="https://i.pinimg.com/474x/22/73/70/227370be14a0c0b432aaae68233a9bb8.jpg">
               <h4>dinh si duyet</h4>
-              <div class="price6"><p>$300</p></div>
+              <div class="price"><p>$300</p></div>
             </div>
           </div>
-          <div class="view_all-courses"><h4>View All Courses</h4><i class="fas fa-long-arrow-alt-right"></i></div>
+         
         </div>
         </div>
         </div>
@@ -357,14 +386,14 @@
  </div>
         </div>
         <div class="footer_content2">
-          <ul>
+          <ul class="footer-ul">
             <h4 id="bold">Useful Links</h4>
-            <li><a href="">Join Us</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Features</a></li>
-            <li><a href="">Feedback</a></li>
-            <li><a href="">Support Center</a></li>
-            <li><a href="">Contact Us</a></li>
+            <li class="footer-li"><a href="">Join Us</a></li>
+            <li class="footer-li"><a href="">About Us</a></li>
+            <li class="footer-li"><a href="">Features</a></li>
+            <li class="footer-li"><a href="">Feedback</a></li>
+            <li class="footer-li"><a href="">Support Center</a></li>
+            <li class="footer-li"><a href="">Contact Us</a></li>
           </ul>
         </div>
         <div class="footer_content3">
