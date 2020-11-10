@@ -19,7 +19,7 @@
       height:300px;
     }
     .wrapper .content .item1{
-      height:1300px;
+      height:1300px;left:0px;
     }
     .wrapper .content .item1 .small_text{
       left:20px;

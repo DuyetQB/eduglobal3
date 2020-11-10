@@ -512,7 +512,7 @@ font-family: 'Roboto', sans-serif;
 
     .wrapper .content .item1{
        background: rgb(245, 243, 243);width:100%;height:20%;
-       position: relative;left:10px;top:1px;
+       position: relative;
     }
     .wrapper .content .item1 .small_text{
         width:50%;height:20%;position: relative;left:330px;top:40px;
