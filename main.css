@@ -101,13 +101,13 @@
      
     }
     .wrapper .menu .small-nav{
-      width:200px;
-      height:220px;
+      width:260px;
+      height:260px;
       list-style-type: none;
       display: none;
       background-color: #fff;
       position: absolute;
-      top:65px ;left:170px;
+      top:65px ;left:120px;
       justify-content: center;
       text-align: center;
 
@@ -689,7 +689,7 @@ visibility: visible;
     }
     .wrapper .content .item4 .courses .courses-item{
       display: grid; grid-template-columns: auto auto auto;
-      grid-row-gap: 10px;padding:70px; grid-column-gap: 10px;
+      grid-row-gap: 15px;padding:70px; grid-column-gap: 0px;
     }
     .wrapper .content .item4 .courses .courses-item .course{
      
