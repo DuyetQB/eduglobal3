@@ -5,6 +5,9 @@
     .wrapper .header{
       height:60px;
     }
+    .header .header-right .right-login .apply{
+      left:30px;
+    }
 
    .wrapper .menu .small-icon-responsive{
       display: block;
@@ -57,6 +60,7 @@
       top:10px;
       left:0px;
       margin: 10px ;
+      width:93%;
     }
     .wrapper .content .item2{
       height:500px;
@@ -244,6 +248,7 @@ and (min-width: 1024px)
 
 {
   .wrapper{
-    width:1400px;
+    width:1354px;
+    margin: 0px auto ;
   }
 }

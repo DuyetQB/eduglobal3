@@ -151,7 +151,7 @@ variableWidth: true,
 
       
 document.addEventListener("DOMContentLoaded" ,function(){
-    let icon = document.querySelector(".far.fa-hand-rock");
+    let icon = document.querySelector(".fas.fa-stream");
     let nav = document.querySelector(".small-nav");
     current ="click1"
     icon.onclick = function(){
